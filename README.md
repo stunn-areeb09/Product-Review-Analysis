@@ -13,6 +13,6 @@ In Rule based analysis, a already trained Library from the NLTK package i.e. Sen
 
 In the Machine Learning based Analysis, Count Vectoriser was used to convert words to a vector thereby giving them some valid values according to the features they exhibit. After converting it to an np array various ML algorithms were applied like Linear SVC(SVM) , Random forests , Logistic Regression and checked for accuracy.
 
-In the Deep learning Based Analysis The model which we acted on had the following feature,
+In the Deep learning Based Analysis The model which we acted on had the following structure,
 Conv1D  ->  Conv1D  ->  Conv1D  ->  Max Pooling1D  ->  Bidirectional LSTM ->  Dense  ->  Dropout  ->  Dense  ->  Dropout  ->  Dense  ->  Dropout  ->  Output
 Here We also used Early stoppping function to make sure the Model doesn't overfit 
