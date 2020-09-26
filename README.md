@@ -1,5 +1,6 @@
 # Product-Review-Analysis
 
+The dataset taken for the analysis was taken from Amazon Reviews.csv which contained productID, userID, Title, Summary, Text etc.
 
 # Classification of sentiment analysis
 The approaches made in Product Review Analysis(sentiment analysis)can be categorized based on techniques used. In this project the Reviews are categorised based on ,
@@ -16,3 +17,4 @@ In the Machine Learning based Analysis, Count Vectoriser was used to convert wor
 In the Deep learning Based Analysis The Sequential model had the following structure,
 Conv1D  ->  Conv1D  ->  Conv1D  ->  Max Pooling1D  ->  Bidirectional LSTM ->  Dense  ->  Dropout  ->  Dense  ->  Dropout  ->  Dense  ->  Dropout  ->  Output
 Here We also used Early stoppping function to make sure the Model doesn't overfit 
+
